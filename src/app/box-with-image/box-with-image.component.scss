@@ -1,14 +1,15 @@
 // box-with-image.component.scss
 
 .box-with-image {
-    background: url('../../assets/desktop_11.jpg') center/contain no-repeat; // Adjust the path based on your project structure
+    background: url('../../assets/desktop_11.jpg') center/contain no-repeat; 
     color: #fff;
     text-align: center;
     padding: 50px;
-    height: 45vh; // Set the height to 100% of the viewport height
+    height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -60px;
   
     .box-content {
       max-width: 800px;
